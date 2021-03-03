@@ -1,7 +1,9 @@
+using IHostedServiceDemo.Data;
 using IHostedServiceDemo.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,8 +28,11 @@ namespace IHostedServiceDemo
         {
             services.AddControllersWithViews();
 
-            services.AddTransient<Microsoft.Extensions.Hosting.IHostedService, WriteToFileHostedService>();
-            services.AddTransient<Microsoft.Extensions.Hosting.IHostedService, WriteToFileHostedService2>();
+            services.AddDbContext<ApplicationDbContext>(options => 
+                options.UseSqlServer(Configuration.GetConnectionString("ConexionDB")));
+
+            //services.AddTransient<Microsoft.Extensions.Hosting.IHostedService, WriteToFileHostedService>();
+            services.AddTransient<Microsoft.Extensions.Hosting.IHostedService, ConsumeScopedService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
