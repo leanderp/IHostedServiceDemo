@@ -27,6 +27,7 @@ namespace IHostedServiceDemo
             services.AddControllersWithViews();
 
             services.AddTransient<Microsoft.Extensions.Hosting.IHostedService, WriteToFileHostedService>();
+            services.AddTransient<Microsoft.Extensions.Hosting.IHostedService, WriteToFileHostedService2>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

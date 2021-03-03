@@ -1,0 +1,27 @@
+WriteToFileHostedService: Process Started 2021-03-02T20:10:46
+WriteToFileHostedService: Doing some work at 2021-03-02T20:10:46
+WriteToFileHostedService: Doing some work at 2021-03-02T20:10:53
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:00
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:07
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:14
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:21
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:28
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:35
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:42
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:49
+WriteToFileHostedService: Doing some work at 2021-03-02T20:11:56
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:03
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:10
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:17
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:24
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:31
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:38
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:45
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:52
+WriteToFileHostedService: Doing some work at 2021-03-02T20:12:59
+WriteToFileHostedService: Doing some work at 2021-03-02T20:13:06
+WriteToFileHostedService: Doing some work at 2021-03-02T20:13:13
+WriteToFileHostedService: Doing some work at 2021-03-02T20:13:20
+WriteToFileHostedService: Doing some work at 2021-03-02T20:13:27
+WriteToFileHostedService: Doing some work at 2021-03-02T20:13:34
+WriteToFileHostedService: Process Stopped 2021-03-02T20:13:40
